@@ -90,4 +90,9 @@ Answer CoT:
 1. Pruning: Return False directly if there are not sufficient words in the matrix.
 2. Reverse String: If the reversed word first char's count is less than original, then reverse it.
 3. DFS:
+    - if word is complete the index == len(word) => word complete
+    - If exceed or the word on board != word[index]
+    - Mark the current word as # 
+    - using or and recursion return for checking
+    - After checking remove the mark
 """
