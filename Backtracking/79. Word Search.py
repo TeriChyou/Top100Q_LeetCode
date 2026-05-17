@@ -95,4 +95,39 @@ Answer CoT:
     - Mark the current word as # 
     - using or and recursion return for checking
     - After checking remove the mark
+
+Time Complexity: O(N^3 * L) N represent for number of cells in the board and L is the length of the word to be matched.
+"""
+
+"""
+If in Java
+  # 字元轉 ASCII 碼
+  // 1. 統計盤面上所有字元的數量 (取代 board_count)
+  // ASCII 字元最多 128 個，陣列預設值為 0
+  int[] boardCount = new int[128]; 
+  for (int i = 0; i < board.length; i++) {
+      for (int j = 0; j < board[0].length; j++) {
+          // board[i][j] 是一個字元，例如 'A'，它會自動轉為 ASCII 碼 65 作為 index
+          boardCount[board[i][j]]++; 
+      }
+  }
+
+  // 2. 統計目標單字的字元數量，並提早審判 (取代 word_count 與 for 迴圈)
+  int[] wordCount = new int[128];
+  for (char ch : word.toCharArray()) {
+      wordCount[ch]++;
+      // 如果單字需要的某個字母數量，已經大於盤面上的總數，直接宣告失敗
+      if (wordCount[ch] > boardCount[ch]) {
+          return false;
+      }
+  }
+
+  // 3. 聰明的起點：比較頭尾字母的頻率，決定是否反轉字串
+  char firstChar = word.charAt(0);
+  char lastChar = word.charAt(word.length() - 1);
+
+  if (boardCount[lastChar] < boardCount[firstChar]) {
+      // Java 反轉字串的標準寫法
+      word = new StringBuilder(word).reverse().toString(); 
+  }
 """

@@ -84,6 +84,7 @@ class BetterSolution:
         return combinations
 
 # 20260516 => Review Failed with wrong algo in for loops
+# 20260517 => Review Failed with wrong combination merge 
 class ReviewSol:
     def letterCombinations(self, digits: str) -> List[str]:
         if not digits:
@@ -99,18 +100,16 @@ class ReviewSol:
             '8': ['t','u', 'v'],
             '9': ['w','x','y','z']
         }
+        
         combinations = [""]
-        # search every digits
         for digit in digits:
-            curr_comb = [] # => every new comb is made here
-            # search every letter that is put into the comb
+            curr_comb = []
             for comb in combinations:
-                # put every letter after the first ""
                 for letter in dig_map[digit]:
                     curr_comb.append(comb + letter)
                 combinations = curr_comb
-        
         return combinations
+        
             
 sol = ReviewSol()
 print(sol.letterCombinations("23"))
