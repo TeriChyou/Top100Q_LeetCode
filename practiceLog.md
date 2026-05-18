@@ -23,3 +23,13 @@
   - You must write an algorithm with O(log n) runtime complexity. 
 - 34. Find First and Last Position of Element in Sorted Array (50%)
   - You must write an algorithm with O(log n) runtime complexity.
+
+## 2026 05 18
+### BinarySearch
+- 35. Search Insert Position
+  - You must write an algorithm with O(log n) runtime complexity.
+- 74. Search a 2D Matrix
+  - You must write a solution in O(log(m * n)) time complexity.
+- 153. Find Minimum in Rotated Sorted Array
+  - You must write an algorithm that runs in O(log n) time.
+  - In binary search for minimum in rotated array, when left == right, that index always points to the minimum element. 
