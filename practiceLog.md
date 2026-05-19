@@ -32,4 +32,14 @@
   - You must write a solution in O(log(m * n)) time complexity.
 - 153. Find Minimum in Rotated Sorted Array
   - You must write an algorithm that runs in O(log n) time.
-  - In binary search for minimum in rotated array, when left == right, that index always points to the minimum element. 
+  - In binary search for minimum in rotated array, when left == right, that index always points to the minimum element.
+
+## 2026 05 19
+### BinaryTree
+- 94. Binary Tree Inorder Traversal
+  - Basic and Classic Left Mid Right Order
+- 98. Validate Binary Search Tree
+  - Since got to know 94.'s concept, try use semi-Squeeze theorem to find if it's valid BST
+- 101. Symmetric Tree
+  - It's not BST
+  - BFS or Mirroring Check
