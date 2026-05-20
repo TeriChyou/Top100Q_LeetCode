@@ -43,3 +43,12 @@
 - 101. Symmetric Tree
   - It's not BST
   - BFS or Mirroring Check
+
+## 2026 05 20
+### BinaryTree
+- 102. Binary Tree Level Order Traversal
+  - Recursion or Iteration are both good, ignore my first long and unecessary code(Tho it still beats 100%, but has larger space complexity)
+- 104. Maximum Depth of Binary Tree
+  - self recursion
+- 105. Construct Binary Tree from Preorder and Inorder Traversal
+
