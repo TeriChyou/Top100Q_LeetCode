@@ -52,3 +52,11 @@
   - self recursion
 - 105. Construct Binary Tree from Preorder and Inorder Traversal
 
+## 2026 05 21
+### BinaryTree
+- 108. Convert Sorted Array to Binary Search Tree
+- 114. Flatten Binary Tree to Linked List
+  - Could be really hard to understand at first, but after understand it can be applied to other place.
+- 199. Binary Tree Right Side View
+  - BFS > DFS, simple recursion can end this quickly. Somehow postorder idk
+
