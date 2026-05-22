@@ -60,3 +60,6 @@
 - 199. Binary Tree Right Side View
   - BFS > DFS, simple recursion can end this quickly. Somehow postorder idk
 
+## 2026 05 22 Severely Bad Mood Today, I hope that old man can pass away in peace asap
+### BinaryTree
+- 
